@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-
+import TierRow from "../components/TierList/TierRow";
 export default function Home() {
     return (
         <div className={styles.container}>
@@ -55,6 +55,9 @@ export default function Home() {
                             with Vercel.
                         </p>
                     </a>
+                </div>
+                <div>
+                    <TierRow label="hello" />
                 </div>
             </main>
 
