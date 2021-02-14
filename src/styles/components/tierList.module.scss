@@ -1,0 +1,27 @@
+@import "../global/colors";
+
+.tierRow {
+    display: flex;
+    border: 5px $black solid;
+    background-color: $rowColor;
+    height: 100px;
+    width: 1000px;
+}
+
+.tierRowLabel {
+    background-color: red;
+    border-right: 5px $black solid;
+    color: white;
+    font-size: 1.5em;
+    width: 100px;
+    text-align: center;
+}
+
+.tierRowitemList {
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    cursor: "move";
+}
